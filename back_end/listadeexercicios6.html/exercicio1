@@ -1,0 +1,16 @@
+<html>
+<head>
+<title>Programa que retorna o valor absoluto de um número</title>
+</head>
+Autor: Marcos Vinicius Martins Campos
+  
+<body>
+  <script>
+    ver valor = Math.abs (-1234);
+    alert(valor);
+  </script>
+</body>
+</html>
+      
+  
+  
