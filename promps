@@ -1,0 +1,28 @@
+
+Título do Projeto: CodeFlow AI – Otimizando o SDLC com Desenvolvimento Assistido1. Visão Geral
+O projeto implementa a IA Generativa como um copiloto onipresente no Ciclo de Vida de Desenvolvimento de Software (SDLC). A ideia não é substituir o desenvolvedor, mas elevar seu papel de "escritor de código" para "revisor e arquiteto", utilizando ferramentas como GitHub Copilot, Cursor ou agentes autônomos. [2, 3, 4, 5] 
+2. Pilares de Atuação da IA
+
+* Ideação e Prototipagem: Uso de LLMs para validar a viabilidade técnica de novas features e gerar especificações funcionais a partir de descrições simples.
+* Geração de Código e Refatoração: Autocompletar blocos lógicos, converter designs (Figma) em código (React/HTML) e modernizar bases de código legadas.
+* QA & Validação: Geração automática de testes unitários, mocks de API e identificação preditiva de vulnerabilidades de segurança.
+* Automação de Toil: Escrita de documentação técnica (Swagger/Markdown) e criação de scripts de CI/CD. [6, 7] 
+
+3. Objetivos Metrificáveis (KPIs)
+
+* Time-to-Market: Reduzir em 30% o tempo entre a concepção da feature e o deploy.
+* Qualidade: Diminuir a densidade de bugs em produção através de revisão estática assistida por IA.
+* Eficiência: Aumentar o volume de pull requests aprovados sem aumentar o tamanho da equipe.
+
+4. Fluxo de Trabalho (Workflow)
+
+   1. Input: O PO descreve a feature em linguagem natural.
+   2. Arquitetura: A IA sugere o design patterns mais adequado e a estrutura de dados.
+   3. Desenvolvimento: O dev utiliza "Pair Programming" com a IA para codar a lógica central.
+   4. Revisão: Um agente de IA analisa o código buscando falhas de performance antes do Code Review humano.
+   5. Docs: A IA gera automaticamente o manual de uso da nova feature. [8, 9] 
+
+5. Riscos e Mitigação
+
+* Alucinação: Revisão humana obrigatória para todo código gerado.
+* Segurança/Privacidade: Uso de instâncias privadas de IA (Azure OpenAI ou modelos locais como Llama 3) para garantir que o código proprietário não alimente modelos públicos.
